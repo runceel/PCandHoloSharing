@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVVkYjB3di8vLy8vQUFBQUtPR3g3UGdJbjBXWnRPK0JwZnlFdVU1NWQrblN0bzdJMlVncDdXdWVUSVVwWXFLdEtYRUxCOWdNNVU2UGY5ZnNpMUtoVWNYUkhOT3ptMVRYYjlPMWVMTVNrLzltZDBFU3NZTkhmT3ZDMnZYOWE3RVh0V2RqeFI2V0hEc3dEbUFtQlZqMExSeVAvRWpOWlJwWlMrSHRSSlVmbTI3dklzdTJFMFFWMW1yaTFSaFZ4aGR6NGVxS3EyQjFMWDNKRllrUEliR2FpRGZYNHJodk03dGFndnYzZzRTV1VVemw2MThvS0d0YUVoNlllSGFES252UVVibUt5Z0FtQStycTlxZHdONzMzNmljclB5MjA2REp0Ty9tZEQ2UnFCOFhIMnNUd0xmdnR4WVRmWGtuZDZDUEVKUElHSXN0b1Yrb1FkYVh5NXNBQmFhT0ZySGFZVW5aeVBmd1hMSitNeEZwRlhkM3VFcjU2dFR6QUpDM0k=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    maxSimultaneousObjectTargets: 1
+    useDelayedLoadingObjectTargets: 0
+    cameraDirection: 0
+    mirrorVideoBackground: 0
+  digitalEyewear:
+    cameraOffset: 0.06
+    distortionRenderingLayer: 31
+    eyewearType: 1
+    stereoFramework: 0
+    seeThroughConfiguration: 1
+    viewerName: 
+    viewerManufacturer: 
+    useCustomViewer: 0
+    customViewer:
+      Version: 0
+      Name: 
+      Manufacturer: 
+      ButtonType: 0
+      ScreenToLensDistance: 0
+      InterLensDistance: 0
+      TrayAlignment: 0
+      LensCenterToTrayDistance: 0
+      DistortionCoefficients: {x: 0, y: 0}
+      FieldOfView: {x: 0, y: 0, z: 0, w: 0}
+      ContainsMagnet: 0
+  databaseLoad:
+    dataSetsToLoad:
+    - VuforiaMars_Images
+    dataSetsToActivate:
+    - VuforiaMars_Images
+  videoBackground:
+    clippingMode: 0
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 15311, guid: 0000000000000000f000000000000000,
+      type: 0}
+    matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  smartTerrainTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    autoInitBuilder: 0
+    sceneUnitsToMillimeter: 0
+  deviceTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    trackingMode: 0
+    posePrediction: 0
+    modelCorrectionMode: 0
+    modelTransformEnabled: 0
+    modelTransform: {x: 0, y: 0.1, z: -0.1}
+  webcam:
+    deviceNameSetInEditor: 
+    flipHorizontally: 0
+    turnOffWebCam: 0
+    renderTextureLayer: 30

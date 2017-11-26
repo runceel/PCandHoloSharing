@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleWatcher", "AppleWatcher.csproj", "{9E953747-4D13-D506-2CBB-D4776BE76EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleWatcher.Plugins", "AppleWatcher.Plugins.csproj", "{8B0EF52D-A630-1EC7-3CA1-2AB7BA984D8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleWatcher.Editor", "AppleWatcher.Editor.csproj", "{E2E19147-725D-4720-06A1-6F2DF221E8EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E953747-4D13-D506-2CBB-D4776BE76EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E953747-4D13-D506-2CBB-D4776BE76EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E953747-4D13-D506-2CBB-D4776BE76EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E953747-4D13-D506-2CBB-D4776BE76EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0EF52D-A630-1EC7-3CA1-2AB7BA984D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0EF52D-A630-1EC7-3CA1-2AB7BA984D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0EF52D-A630-1EC7-3CA1-2AB7BA984D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0EF52D-A630-1EC7-3CA1-2AB7BA984D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E19147-725D-4720-06A1-6F2DF221E8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E19147-725D-4720-06A1-6F2DF221E8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E19147-725D-4720-06A1-6F2DF221E8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E19147-725D-4720-06A1-6F2DF221E8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
